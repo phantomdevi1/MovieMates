@@ -1,0 +1,134 @@
+body{
+  width: 1920px;
+  background-color: black;
+  margin: 0 auto;
+}
+.container__center{ 
+  display: flex;
+  justify-content: center;
+}
+/*header*/
+header{
+  width: 1200px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+.header__logo{
+  font-family: Inter;
+  font-size: 24px;
+  color: white;  
+  margin-top: 30px;
+}
+.header__login__container{  
+  margin-left: 1000px;
+  margin-top: 35px;
+}
+.header__login-btn{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  color:  white;
+  background: none;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.header__login-btn:hover{
+  border-radius: 6px;
+  border: 1px solid white;
+  transition: 0.6s;
+}
+.header__login-btn:active{
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  transition: 0.1s;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+}
+
+/*creature__room*/
+.creature__room{
+  margin-top: 230px;
+  max-width: 1200px;
+  width: 100%;
+  height: 270px;
+  color: azure;
+  display: grid;    
+  justify-content: center;
+  
+}
+.creature__room-registration{
+  height: 26px;
+}
+.creature__room-registration button{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 22px;
+  color: #0066FF;
+  background: none;
+  border: none;
+  transition: 0.5s;
+  justify-content: center;
+  
+}
+.creature__room-registration button:hover{
+  color: white;
+  transition: 0.5s;
+}
+.creature__room-text{
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 64px;
+  color: white;
+  width: 420px; 
+  margin-top: 20px;   
+}
+.creature__room-button{
+  margin-top: 50px;
+  background-color: #283F93;
+  width: 177px;
+  height: 47px;
+  border-radius: 35px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.creature__room-button:hover{
+  background-color: white;
+  color: #283F93;  
+}
+.creature__room-button:active{
+  background-color: rgb(121, 116, 116);
+  color: #0037ff; 
+  transition: 0.1s;
+}
+
+/*donate*/
+.donate__container{
+  margin-top: 300px;
+}
+.main__content-donate{
+  background: none;
+  border: none;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  transition: 0.1s;
+}
+.main__content-donate:hover{
+  text-decoration: underline;
+
+}
+
+/*Пытаюсь выравнять всё по центру*/
+.test{
+  display: flex;
+  justify-content: center;
+}
